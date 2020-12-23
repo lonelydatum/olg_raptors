@@ -12,7 +12,7 @@ function start(){
 	tl.to(".t1", speed*.5, {y:0}, "one")
 	tl.to(".w", speed, {y:0, ease:Back.easeOut}, "one")
 
-	tl.to(".person", speed, {y:0, ease:Power3.easeIn}, "one+=.2")
+	tl.to(".person", .6, {scale:.5, y:0, ease:Power3.easeOut}, "one+=.2")
 	
 	
 	

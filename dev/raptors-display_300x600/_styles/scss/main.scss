@@ -19,6 +19,9 @@
 
 .person{
 	@include pos-scale(0, 390, .5);
+	// transform-origin: 50% 50%;
+	// @include pos-scale(-150, -300, .8);
+	// @include pos-scale(-150, 80, 1);
 }
 
 
