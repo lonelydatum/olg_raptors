@@ -1,0 +1,29 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+.frame1 {
+	opacity: 0;
+}
+
+.t1{
+	@include pos-scale(0, 100, .5);
+	@include pos-scale(0, 80, .5);
+}
+
+.w{
+	@include pos-scale(0, 90, .5);
+}
+
+.person{
+	@include pos-scale(0, 90, .5);
+}
+
+
+#banner{	
+	width: 980px;
+	height: 80px;
+}
+
